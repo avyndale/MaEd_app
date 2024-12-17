@@ -1,0 +1,64 @@
+/* General Reset */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.courses34-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.courses34-title {
+  font-size: 2rem;
+  color: #044a4a;
+  margin-bottom: 20px;
+}
+
+.course34-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-left: 6px solid #77c9c9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course34-info {
+  text-align: left;
+  flex: 2;
+}
+
+.course34-title {
+  font-size: 1.1rem;
+  color: #044a4a;
+  margin-bottom: 10px;
+}
+
+.course34-description {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.course34-meta {
+  text-align: right;
+  flex: 1;
+}
+
+.course34-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.course34-level {
+  font-size: 0.9rem;
+  color: #777;
+}

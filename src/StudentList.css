@@ -1,0 +1,158 @@
+/* General styling for the container */
+.student-list-container20 {
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #bce0e0;
+  }
+  
+  /* Sidebar styling */
+  .sidebar20 {
+    background-color: #e0f7f7;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #bce0e0;
+  }
+  
+  .logo-img20 {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-title20 {
+    font-size: 20px;
+    color: #044a4a;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .menu20 {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .menu-item20 {
+    font-size: 18px;
+    color: #044a4a;
+    padding: 15px 100px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu-item20:hover {
+    background-color: #3ba5a5;
+    color: white;
+  }
+  
+  .active20 {
+    background-color: #3ba5a5;
+    color: white;
+  }
+  
+  .sidebar-footer20 {
+    margin-top: auto;
+    font-size: 12px;
+    color: #6c6c6c;
+    text-align: center;
+  }
+  
+  /* Content section styling */
+  .main-content20 {
+    flex: 1;
+    padding: 20px 40px;
+    overflow-y: auto;
+  }
+  
+  /* Title of the page */
+  .content-title20 {
+    font-size: 50px;
+    color: #044a4a;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Table container styling */
+  .table-container20 {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-controls20 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .table-controls20 label {
+    font-size: 16px;
+  }
+  
+  .table-controls20 select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #044a4a;
+    color: white;
+  }
+  
+  table td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Pagination section */
+  .pagination20 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination20 button {
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .pagination20 button:disabled {
+    cursor: not-allowed;
+    background-color: #ddd;
+  }
+  
+  .pagination20 button:hover {
+    background-color: #3ba5a5;
+    color: white;
+  }
+  

@@ -1,0 +1,182 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Admin Dashboard */
+.admin-dashboard30 {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+/* Sidebar */
+.sidebar30 {
+    width: 20%;
+    background-color: #008080;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-section30 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.logo130 {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.sidebar30 h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sidebar-links30 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar-links30 li {
+    padding: 15px 0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-links30 li:hover {
+    background-color: #1abc9c;
+}
+
+.sidebar-links30 .active {
+    background-color: #16a085;
+    font-weight: bold;
+}
+
+/* Form Content */
+.form-content30 {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header30 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header30 h2 {
+    margin: 0;
+    font-size: 26px;
+    color: #333333;
+}
+
+.back-button30 {
+    background-color: teal;
+    color: #fdf4f4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button30:hover {
+    background-color: #aaaaaa;
+}
+
+/* Form Styles */
+.form30 {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-label30 {
+    display: block;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.form-input30,
+.form-textarea30,
+.form-select30,
+.video-input30 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-textarea30 {
+    resize: none;
+    height: 80px;
+}
+
+.checkbox30 {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox30 input {
+    margin-right: 10px;
+}
+
+/* Submit Button */
+.submit-button30 {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button30:hover {
+    background-color: #006060;
+}
+
+.add-button30,
+.remove-button30,
+.cancel-button30,
+.update-button30 {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button30:hover,
+.remove-button30:hover,
+.cancel-button30:hover,
+.update-button30:hover {
+    background-color: #006060;
+}
+
+.button-container30 {
+    margin-top: 20px;
+}

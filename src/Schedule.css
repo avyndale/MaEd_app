@@ -1,0 +1,132 @@
+/* General styling for the container */
+.schedule-container12 {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #bce0e0; /* Light background color */
+  }
+  
+  /* Sidebar styling */
+  .sidebar12 {
+    background-color: #e0f7f7; /* Light blue sidebar */
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #bce0e0; /* Border for sidebar separation */
+  }
+  
+  /* Sidebar logo styling */
+  .sidebar-logo12 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-img12 {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px; /* Spacing below the logo */
+  }
+  
+  /* Sidebar title */
+  .sidebar-title12 {
+    font-size: 20px;
+    color: #044a4a; /* Dark teal for text */
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  /* Menu links */
+  .menu12 {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .menu-item12 {
+    font-size: 18px;
+    color: #044a4a;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover and active styles for menu items */
+  .menu-item12:hover,
+  .menu-item12.active12 {
+    background-color: #3ba5a5;
+    color: white;
+  }
+  
+  /* Sidebar footer */
+  .sidebar-footer12 {
+    margin-top: auto;
+    font-size: 12px;
+    color: #6c6c6c;
+    text-align: center;
+  }
+  
+  /* Main content styling */
+  .content12 {
+    flex: 1;
+    padding: 20px 40px;
+    overflow-y: auto;
+  }
+  
+  /* Schedule title */
+  .schedule-title12 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #044a4a;
+    margin-bottom: 20px;
+  }
+  
+  /* Table container */
+  .schedule-table-container12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Schedule table styling */
+  .schedule-table12 {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Table header */
+  .schedule-table12 thead {
+    background-color: #3ba5a5;
+    color: white;
+  }
+  
+  .schedule-table12 th,
+  .schedule-table12 td {
+    padding: 30px 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Alternating row background */
+  .schedule-table12 tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .schedule-table12 tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  /* Row hover effect */
+  .schedule-table12 tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  

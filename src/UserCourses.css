@@ -1,0 +1,390 @@
+/* General styling for the container */
+.courses-container9 {
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #bce0e0;
+}
+
+/* Sidebar styling */
+.sidebar9 {
+  background-color: #e0f7f7;
+  width: 20%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid #bce0e0;
+}
+
+.logo-img9 {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.sidebar-title9 {
+  font-size: 20px;
+  color: #044a4a;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.menu9 {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-item9 {
+  font-size: 18px;
+  color: #044a4a;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item9:hover {
+  background-color: #3ba5a5;
+  color: white;
+}
+
+.active9 {
+  background-color: #3ba5a5;
+  color: white;
+}
+
+.sidebar-footer9 {
+  margin-top: auto;
+  font-size: 12px;
+  color: #6c6c6c;
+  text-align: center;
+}
+
+/* Content section styling */
+.content9 {
+  flex: 1;
+  padding: 20px 40px;
+  overflow-y: auto;
+}
+
+.content-title9 {
+  font-size: 24px;
+  color: #044a4a;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Course cards styling */
+.course-card9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #bce0e0;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-info9 {
+  max-width: 70%;
+}
+
+.course-title9 {
+  font-size: 18px;
+  color: #044a4a;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.course-description9 {
+  font-size: 14px;
+  color: #6c6c6c;
+  margin: 0;
+}
+
+.course-details9 {
+  text-align: right;
+}
+
+.course-price9 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3ba5a5;
+  margin-bottom: 5px;
+}
+
+.course-level9 {
+  font-size: 14px;
+  color: #6c6c6c;
+}
+
+.course-card9 {
+  cursor: pointer;
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.course-card9:hover {
+  background-color: #e1f7f1;
+}
+
+.course-parts9 {
+  margin-top: 15px;
+}
+
+.course-part9 {
+  padding: 10px;
+  background-color: #d1f1f1;
+  margin: 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.course-part9:hover {
+  background-color: #a1e1e0;
+}
+
+.video-container9 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.video-container9 iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+}
+
+.course-part9 {
+  padding: 10px;
+  margin: 5px;
+  background-color: #a0e1e1;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.course-part9:hover {
+  background-color: #8accc8; /* Hover effect */
+}
+
+.course-part9.active {
+  background-color: #69b5b5; /* Active state */
+}
+
+.course-parts9 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.course-part9 {
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: #8de3e3; /* Light blue shade */
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.course-part9:hover {
+  background-color: #5ed1d1; /* Darker blue on hover */
+  color: white;
+}
+
+.video-container9 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+iframe {
+  width: 80%;
+  max-width: 800px;
+  height: 450px;
+  margin: auto;
+  display: block;
+}
+
+.video-modal-overlay9 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.video-modal-content9 {
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+.close-btn9 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-btn9:hover {
+  background-color: #cc0000;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+}
+
+.modal-overlay9 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content9 {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  width: 600px;
+  max-width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.close-btn9 {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+.close-btn9:hover {
+  color: #000;
+}
+
+.video-list9 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.video-item9 {
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.video-item9:hover {
+  background: #ddd;
+}
+
+iframe {
+  margin-top: 10px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  width: 600px;
+  max-width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+.video-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.video-item {
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.video-item:hover {
+  background: #ddd;
+}
+
+iframe {
+  margin-top: 10px;
+}

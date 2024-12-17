@@ -1,0 +1,264 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eef2f5;
+}
+
+/* Admin Dashboard */
+.admin-schedule-container10 {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+/* Sidebar */
+.sidebar10 {
+  background-color: #008080;
+  width: 20%;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-section10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.logo-img10 {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0px;
+}
+
+.sidebar-title10 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sidebar-links10 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+.sidebar-links10 li {
+  padding: 15px 20px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-links10 li:hover {
+  background-color: #1abc9c;
+}
+
+.sidebar-links10 li.active10 {
+  background-color: #16a085;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Sidebar Footer */
+.sidebar-footer10 {
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Main Content */
+.content10 {
+  flex-grow: 1;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.content-title10 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+/* Table Section */
+.schedule-table10 {
+  margin-top: 20px;
+}
+
+.schedule-header10 {
+  margin-bottom: 10px;
+}
+
+.schedule-row10 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.schedule-row10 input,
+.schedule-row10 select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+}
+
+.schedule-row10 input:focus,
+.schedule-row10 select:focus {
+  border-color: #008080;
+}
+
+/* Footer */
+.footer10 {
+  margin-top: 20px;
+}
+
+.entries-display10 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.entries-display10 select {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+}
+
+.pagination10 {
+  display: flex;
+  justify-content: center;
+}
+
+.prev10,
+.next10 {
+  padding: 10px 20px;
+  background-color: #008080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.prev10:hover,
+.next10:hover {
+  background-color: #16a085;
+}
+
+.add-schedule-btn10 {
+  padding: 10px 20px;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.add-schedule-btn10:hover {
+  background-color: #16a085;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar10 {
+    width: 200px;
+  }
+
+  .sidebar-links10 li {
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+
+  .content10 {
+    padding: 20px;
+  }
+
+  .schedule-row10 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .schedule-row10 input,
+  .schedule-row10 select {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .pagination10 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prev10,
+  .next10 {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .add-schedule-btn10 {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar10 {
+    width: 180px;
+  }
+
+  .sidebar-links10 li {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .content10 h1 {
+    font-size: 20px;
+  }
+
+  .schedule-row10 input,
+  .schedule-row10 select {
+    font-size: 10px;
+    padding: 6px;
+  }
+
+  .pagination10 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prev10,
+  .next10 {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+  .add-schedule-btn10 {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+}
